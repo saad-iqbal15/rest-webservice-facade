@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: rest-webservice-facade
+  cloud:
+    config:
+      uri: https://config-server-app.cfapps.io
+management:
+  security:
+    enabled: false
